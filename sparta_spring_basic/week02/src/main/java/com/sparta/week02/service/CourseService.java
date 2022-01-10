@@ -17,7 +17,6 @@ public class CourseService {
     private final CourseRepository courseRepository;
 
 
-
     @Transactional // SQL 쿼리가 일어나야 함을 스프링에게 알려줌
     public Long update(Long id, CourseRequestDto requestDto) {
         Course course1 = courseRepository.findById(id).orElseThrow(

@@ -1,4 +1,4 @@
-package com.sparta.homewok1;
+package com.sparta.homewok1.models;
 
 public class Person {
     private String name;

@@ -9,7 +9,7 @@ public class Prac {
         int days = 35;
         Course course = new Course();
 
-        course.setTitle(title );
+        course.setTitle(title);
         course.setTutor(tutor);
         course.setDays(days);
 
